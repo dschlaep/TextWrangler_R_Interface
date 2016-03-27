@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <!--
-	R language module for BBEdit
+	Based on "R language module for BBEdit"
 	https://files.nyu.edu/jmb736/public/code/text/index.html
 	Jonathan Marc Bearak, PhD Candidate in Sociology, New York University
 	
@@ -59,17 +59,26 @@
 	<key>BBLMKeywordList</key>
 	<array>
 		<string>function</string>
+		<string>Inf</string>
 		<string>NULL</string>
 		<string>FALSE</string>
 		<string>TRUE</string>
 		<string>for</string>
+		<string>in</string>
 		<string>while</string>
+		<string>repeat</string>
 		<string>if</string>
 		<string>ifelse</string>
 		<string>else</string>
 		<string>end</string>
 		<string>stop</string>
+		<string>next</string>
+		<string>break</string>
 		<string>NA</string>
+		<string>NA_integer_</string>
+		<string>NA_real_</string>
+		<string>NA_complex_</string>
+		<string>NA_character_</string>
 		<string>NaN</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
@@ -101,9 +110,7 @@
 		<string>.packages</string>
 		<string>.path.package</string>
 		<string>.Primitive</string>
-		<string>.readRDS</string>
 		<string>.S3method</string>
-		<string>.saveRDS</string>
 		<string>.Script</string>
 		<string>.signalSimpleWarning</string>
 		<string>.subset</string>
@@ -180,6 +187,7 @@
 		<string>as.complex</string>
 		<string>as.data.frame</string>
 		<string>as.date</string>
+		<string>as.Date</string>
 		<string>as.dendrogram</string>
 		<string>as.difftime</string>
 		<string>as.dist</string>
@@ -283,7 +291,6 @@
 		<string>boxplot.stats</string>
 		<string>boxplot</string>
 		<string>bquote</string>
-		<string>break</string>
 		<string>browse.pkgs</string>
 		<string>browse.update.pkgs</string>
 		<string>browseEnv</string>
@@ -774,6 +781,7 @@
 		<string>graphics.off</string>
 		<string>gray</string>
 		<string>grep</string>
+		<string>grepl</string>
 		<string>grey</string>
 		<string>grid.add</string>
 		<string>grid.arrows</string>
@@ -856,7 +864,6 @@
 		<string>imp.quantile</string>
 		<string>imp.weights</string>
 		<string>importIntoEnv</string>
-		<string>in</string>
 		<string>index.search</string>
 		<string>influence.gam</string>
 		<string>influence.measures</string>
@@ -939,6 +946,7 @@
 		<string>isGroup</string>
 		<string>isIncomplete</string>
 		<string>isInitialized</string>
+		<string>isNamespaceLoaded</string>
 		<string>ISOdate</string>
 		<string>ISOdatetime</string>
 		<string>isoMDS</string>
@@ -1137,6 +1145,7 @@
 		<string>model.response</string>
 		<string>model.tables</string>
 		<string>model.weights</string>
+		<string>modifyList</string>
 		<string>mona</string>
 		<string>mono.con</string>
 		<string>monthplot</string>
@@ -1177,7 +1186,6 @@
 		<string>negative.binomial</string>
 		<string>new.env</string>
 		<string>new</string>
-		<string>next</string>
 		<string>NextMethod</string>
 		<string>nextn</string>
 		<string>nlevels</string>
@@ -1295,6 +1303,7 @@
 		<string>parse</string>
 		<string>parseNamespaceFile</string>
 		<string>paste</string>
+		<string>paste0</string>
 		<string>path.expand</string>
 		<string>path.rpart</string>
 		<string>pbeta</string>
@@ -1501,6 +1510,7 @@
 		<string>Rd_parse</string>
 		<string>Rdindex</string>
 		<string>Re</string>
+		<string>readRDS</string>
 		<string>read.00Index</string>
 		<string>read.csv</string>
 		<string>read.csv2</string>
@@ -1551,13 +1561,13 @@
 		<string>reorder</string>
 		<string>rep.int</string>
 		<string>rep</string>
-		<string>repeat</string>
 		<string>replace</string>
 		<string>replayPlot</string>
 		<string>replicate</string>
 		<string>replications</string>
 		<string>representation</string>
 		<string>require</string>
+		<string>requireNamespace</string>
 		<string>resetClass</string>
 		<string>reshape</string>
 		<string>resid</string>
@@ -1631,6 +1641,7 @@
 		<string>save</string>
 		<string>savehistory</string>
 		<string>saveNamespaceImage</string>
+		<string>saveRDS</string>
 		<string>scale</string>
 		<string>scan</string>
 		<string>scatter.smooth</string>
@@ -1647,6 +1658,8 @@
 		<string>selfStart</string>
 		<string>semat</string>
 		<string>seq</string>
+		<string>seq_len</string>
+		<string>seq_along</string>
 		<string>sequence</string>
 		<string>serialize</string>
 		<string>sessionInfo</string>
