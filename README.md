@@ -6,6 +6,7 @@ The content is based on previous work. I modified and/or expanded on their great
 	- Jonathan Marc Bearak [website](http://bearak.org/code/text/index.html)
 	- Gene Cutler [r-sig-mac contribution](https://stat.ethz.ch/pipermail/r-sig-mac/2005-December/002520.html)
 	- Jelmer Borst [masci blog](http://macsci.jelmerborst.nl/files/textwrangler_and_r.php#unique-entry-id-2)
+	- Jean Thioulouse [Apple Script](http://pbil.univ-lyon1.fr/JTHome/SendSelToR.txt)
 	
 	
 ## Setup
