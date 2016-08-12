@@ -1005,6 +1005,7 @@
 		<string>LDEsysMat</string>
 		<string>legend</string>
 		<string>length</string>
+		<string>lengths</string>
 		<string>levelplot</string>
 		<string>levels</string>
 		<string>lfactorial</string>
@@ -1183,6 +1184,7 @@
 		<string>nclass.scott</string>
 		<string>nclass.Sturges</string>
 		<string>ncol</string>
+		<string>NCOL</string>
 		<string>needUpdate</string>
 		<string>negative.binomial</string>
 		<string>new.env</string>
@@ -1205,10 +1207,12 @@
 		<string>nnet</string>
 		<string>nnetHess</string>
 		<string>noquote</string>
+		<string>normalizePath</string>
 		<string>norm.ci</string>
 		<string>notExp</string>
 		<string>notLog</string>
 		<string>nrow</string>
+		<string>NROW</string>
 		<string>ns</string>
 		<string>nsl</string>
 		<string>null.space.basis.labels</string>
