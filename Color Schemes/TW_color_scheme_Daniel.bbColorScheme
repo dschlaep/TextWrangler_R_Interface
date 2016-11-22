@@ -4,6 +4,8 @@
 <dict>
 	<key>BackgroundColor</key>
 	<string>rgba(1.0,1.0,1.0,1.0)</string>
+	<key>DifferenceHighlightColor</key>
+	<string>hsla(0.00, 0.00, 1.00, 1.00)</string>
 	<key>HighlightInsertionPoint</key>
 	<true/>
 	<key>InvisibleOthersColor</key>
